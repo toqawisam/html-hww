@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  
+</style>
+<body>
+    <h1>page3:student form</h1>
+    <form action="action_page.php" method="get">
+        <div>
+        <label for ="sname">student name </label>
+            <br>
+        <input type="text" id="sname" placeholder="enter your name here" required>
+    </div>
+    <br>
+    <div>
+        <div>
+        <label  for ="gender" >gender:</label>
+    </div>
+        <input type="radio" value="male" name="gender"  id="male"/>
+            <label for ="male" >male  </label> 
+        <br>
+        <input type="radio" value="female" name="gender" id="female"   >
+        <label for ="female" >female</label> 
+    </div>
+    <br>
+    <div>
+        <lable>hobbies:</lable>
+        <br>
+        <input type="checkbox"  value="chess" name="hobbies" id="chess" >
+        <label for ="chess"> chess</label>
+        <br>
+        <input type="checkbox" value="reading" name="hobbies" id="reading" >
+        <label for ="reading">  reading</label>
+        <br>
+        <input type="checkbox"  value="football" name="hobbies" id="football">
+        <label for ="football">football</label>
+        <br>
+        <input type="checkbox" value="tennies" name="hobbies" id="tennies" >
+        <label for ="tennies">tennies</label>
+        
+        
+    </div>
+    <br>
+    <div>
+        <label for="car">choose a car</label>
+        <select id="car" name="car">
+            <option value="volvo"> volvo </option>
+            <option  value="saab">saab</option>
+            <option value="flat">flat</option>
+            <option value="audi">audi</option>
+        </select>
+
+    </div>
+    <br>
+    <div>
+        <label>  your opinion about tthe website:</label>  
+        <br>
+        
+        <textarea  rows="5" cols="50" >
+         
+            </textarea>
+       
+    </div>
+    <br>
+    <div>
+        <input type="submit">
+    </div>
+
+    </form>
+    
+    <p><a href="./index.html">back to index</a></p>
+</body>
+</html>
